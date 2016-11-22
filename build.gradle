@@ -1,3 +1,0 @@
-// Generic Gradle project
-
-apply plugin: 'java'

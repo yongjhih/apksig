@@ -1,0 +1,2 @@
+include ':apksig'
+include ':apksigner'
