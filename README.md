@@ -1,3 +1,6 @@
+[![JitPack](https://img.shields.io/github/tag/yongjhih/apksig.svg?label=JitPack)](https://jitpack.io/#yongjhih/apksig)
+[![javadoc](https://img.shields.io/github/tag/yongjhih/apksig.svg?label=javadoc)](https://jitpack.io/com/github/yongjhih/apksig/apksig/-SNAPSHOT/javadoc/)
+
 # apksig
 
 apksig is a project which aims to simplify APK signing and checking whether APK's signatures should
@@ -21,6 +24,8 @@ The project consists of two subprojects:
 
 ## Usage
 
+## Cli Usage
+
 ```sh
 ./gradlew :apksigner:run
 ```
@@ -32,6 +37,21 @@ The project consists of two subprojects:
 
 ```sh
 ./gradlew :apksigner:run -P"args=sign --ks"
+```
+
+## Installation
+
+via jitpack.io
+
+```gradle
+repositories {
+    jcenter()
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    compile 'com.github.yongjhih.apksig:apksig:-SNAPSHOT'
+}
 ```
 
 ## apksig library
