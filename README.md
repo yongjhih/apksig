@@ -19,6 +19,21 @@ The project consists of two subprojects:
   * apksigner -- a pure Java command-line tool based on the apksig library.
 
 
+## Usage
+
+```sh
+./gradlew :apksigner:run
+```
+
+```sh
+./gradlew :apksigner:run -P"args=version"
+```
+
+
+```sh
+./gradlew :apksigner:run -P"args=sign --ks"
+```
+
 ## apksig library
 
 apksig library offers three primitives:
